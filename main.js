@@ -12,7 +12,7 @@ for (let i = 1; i <= 100; i++) {
             contenitore.innerHTML += element;
         }
         else if (i%5 == 0) {
-            const element = `<div class="box box5">fizz</div>`;
+            const element = `<div class="box box5">buzz</div>`;
             contenitore.innerHTML += element;
         }
         else {
